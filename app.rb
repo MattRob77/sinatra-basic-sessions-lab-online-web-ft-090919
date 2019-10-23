@@ -12,5 +12,5 @@ class App < Sinatra::Base
   end 
   
   get '/checkout' do 
-    
+    @session 
 end
